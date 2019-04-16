@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a828a8fd3667ad14b9f0190f27f95876, type: 3}
+  m_Name: S_Wait
+  m_EditorClassIdentifier: 
+  state_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  actions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: 1b5a9f18839e063489ec3bdc0a17a6eb, type: 2}
+    true_prio: 3
+    true_state: {fileID: 11400000, guid: 336854033b8eae341ab218c120be071c, type: 2}
+    false_prio: 0
+    false_state: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 8ef4a146fe14b924f9e9bbde29645d5b, type: 2}
+    true_prio: 2
+    true_state: {fileID: 11400000, guid: 582c363866f63c6408e1b2c8303d22cc, type: 2}
+    false_prio: 0
+    false_state: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 2e06a2b788ff7e64d8d4677aca68a8e2, type: 2}
+    true_prio: 1
+    true_state: {fileID: 11400000, guid: 4a856fb07331c2a48bbe4dca81db5f3a, type: 2}
+    false_prio: 0
+    false_state: {fileID: 0}
+  debug: 0

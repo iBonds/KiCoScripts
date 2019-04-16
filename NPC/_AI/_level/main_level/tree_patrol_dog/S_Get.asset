@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a828a8fd3667ad14b9f0190f27f95876, type: 3}
+  m_Name: S_Get
+  m_EditorClassIdentifier: 
+  state_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  actions:
+  - {fileID: 11400000, guid: d253df4b82bf0894aa159d9bcfb67c1c, type: 2}
+  - {fileID: 11400000, guid: b2411a147c21f0748bfe3fefce94ff6b, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 314f67836797b76498f5d5c9c724e63b, type: 2}
+    true_prio: 2
+    true_state: {fileID: 0}
+    false_prio: 1
+    false_state: {fileID: 11400000, guid: 8c319576957ddac4895ceab8a5376491, type: 2}
+  - decision: {fileID: 11400000, guid: 8f9a27a3b71b080459b089909f63f5da, type: 2}
+    true_prio: 5
+    true_state: {fileID: 11400000, guid: 4fa0d3ecc37beeb43a0125301ae8e0ea, type: 2}
+    false_prio: 0
+    false_state: {fileID: 0}
+  debug: 0
